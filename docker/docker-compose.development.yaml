@@ -1,0 +1,12 @@
+name: tic-tac-toe
+services:
+  app:
+    container_name: tic-tac-toe-app
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.development
+    volumes:
+      - type: bind
+        source: ../
+        target: /workspaces/tic-tac-toe/
+    tty: true

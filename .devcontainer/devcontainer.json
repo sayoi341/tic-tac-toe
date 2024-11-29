@@ -1,0 +1,11 @@
+{
+  "name": "tic-tac-toe",
+  "workspaceFolder": "/workspaces/tic-tac-toe/",
+  "dockerComposeFile": ["../docker/docker-compose.development.yaml"],
+  "service": "app",
+  "customizations": {
+    "vscode": {
+      "extensions": ["biomejs.biome", "editorconfig.editorconfig", "esbenp.prettier-vscode", "oven.bun-vscode"]
+    }
+  }
+}
