@@ -1,5 +1,5 @@
-import { Square } from '../component/square';
+import { Board } from '../component/board';
 
 export const App = () => {
-  return <Square />;
+  return <Board />;
 };
